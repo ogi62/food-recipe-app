@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Meal Finder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Meal Finder</h1>
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search for meals or keywords" />
+                <button class="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="random-btn" id="random">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+        <div class="flex flex-button">
+            <button id="chicken">Chicken</button>
+            <button id="pork">Pork</button>
+            <button id="lamb">Lamb</button>
+            <button id="beef">Beef</button>
+            <button id="vegeterian">Vegeterian</button>
+            <button id="dessert">Dessert</button>
+        </div>
+        <div class="flex flex-button">
+            <button id="breakfast">Breakfast</button>
+            <button id="side">Side</button>
+            <button id="starter">Starter</button>
+            <button id="pasta">Pasta</button>
+            <button id="seafood">Seafood</button>
+            <button id="heavyweight">Heavyweight</button>
+        </div>
+
+        <div id="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
